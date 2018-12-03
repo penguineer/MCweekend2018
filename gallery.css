@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    #content {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#content {
+    text-align: left;
+}
+
+#content h1 {
+    font-family: sans-serif;
+}
+
+#content p {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+div.picture {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    margin-top: 3em;
+}
+
+div.picture img {
+    width: 100%;
+}
+
+div.picture p {
+    width: 100%;
+    text-align: center!important;
+}
